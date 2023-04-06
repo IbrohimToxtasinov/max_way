@@ -9,7 +9,7 @@ MyalertDialog({required VoidCallback onTap, required BuildContext context}) {
     builder: (BuildContext context) {
       return AlertDialog(
         title: const Text(
-          "Rostdan ham akkountdan chiqishni xohlaysizmi?",
+          "Rostdan ham ochirasizmi?",
           textAlign: TextAlign.center,
         ),
         actions: <Widget>[
